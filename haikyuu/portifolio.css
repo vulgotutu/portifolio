@@ -5,10 +5,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 99vh;
-    
+    height: 99vh;  
 }
-
 .container{
     display: flex;
     background-color: rgb(241, 232, 232);
@@ -28,7 +26,6 @@ body {
 }
 .inf {
     text-align: center;
-    margin-top: 10px;
     width: 200px;   
 }
 .inf p {
@@ -99,7 +96,7 @@ body {
     .nome{
         margin: 0;
     } 
-}
-
-
-
+    .inf{
+        width: 100%;
+        font-size: 1.0em;
+    }
